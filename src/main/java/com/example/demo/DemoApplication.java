@@ -23,9 +23,9 @@ public class DemoApplication {
 	public CommandLineRunner demo(BuddyInfoRepository repository) {
 		return (args) -> {
 			// save a few customers
-			repository.save(new BuddyInfo(1L,"Jack", "613"));
-			repository.save(new BuddyInfo(2L,"Chloe", "424"));
-			repository.save(new BuddyInfo(3L,"Kim", "415"));
+			//repository.save(new BuddyInfo(1L,"Jack", "613"));
+			//repository.save(new BuddyInfo(2L,"Chloe", "424"));
+			//repository.save(new BuddyInfo(3L,"Kim", "415"));
 
 			//BuddyInfoController b = new BuddyInfoController(repository);
 

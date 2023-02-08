@@ -31,4 +31,6 @@ public class BuddyInfoRestController {
         }
         return buddies;
     }
+
+
 }
