@@ -27,7 +27,7 @@ public class BuddyInfoRestController {
 
         String buddies = "";
         for(AddressBook a : addressBookRepository.findAll()){
-            buddies+= a.printBuddyInfo() + "<br>";
+            buddies+= a.printBuddyInfo() + "/n";
         }
         return buddies;
     }

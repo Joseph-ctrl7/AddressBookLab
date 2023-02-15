@@ -58,8 +58,8 @@ public class BuddyInfo {
 
     public String toString(){
         String str = "";
-        str = str + name + "#";
-        str = str + phoneNumber + "";
+        str = str + name + "; ";
+        str = str + phoneNumber + "; ";
         return str;
     }
 

@@ -49,6 +49,10 @@ public class AddressBook {
         this.id = id;
     }
 
+    public Long getId(){
+        return this.id;
+    }
+
     public int size() {
         return myBuddies.size();
     }
